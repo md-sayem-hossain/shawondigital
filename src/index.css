@@ -1,0 +1,138 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --color-violet: #7C3AED;
+  --color-magenta: #EC4899;
+  --color-orange: #F97316;
+  --color-base: #F8F9FF;
+  --color-text: #1E1B4B;
+  --color-text-muted: #6B7280;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-base);
+}
+/* Blob floating animations */
+@keyframes blob-float {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  }
+  25% {
+    transform: translate(30px, -50px) scale(1.1);
+    border-radius: 50% 60% 30% 70% / 60% 40% 70% 40%;
+  }
+  50% {
+    transform: translate(-20px, 20px) scale(0.95);
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  75% {
+    transform: translate(15px, -30px) scale(1.05);
+    border-radius: 60% 40% 30% 70% / 40% 70% 60% 30%;
+  }
+}
+@keyframes blob-float-reverse {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  25% {
+    transform: translate(-40px, 30px) scale(0.9);
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  }
+  50% {
+    transform: translate(25px, -40px) scale(1.1);
+    border-radius: 70% 30% 50% 50% / 30% 60% 40% 70%;
+  }
+  75% {
+    transform: translate(-15px, 50px) scale(1.0);
+    border-radius: 50% 50% 30% 70% / 70% 30% 60% 40%;
+  }
+}
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+.animate-blob-float {
+  animation: blob-float 7s ease-in-out infinite;
+}
+.animate-blob-float-reverse {
+  animation: blob-float-reverse 9s ease-in-out infinite;
+}
+.animate-shimmer {
+  animation: shimmer 2s ease-in-out infinite;
+}
+.animate-gradient-shift {
+  background-size: 200% 200%;
+  animation: gradient-shift 4s ease infinite;
+}
+.animate-float-gentle {
+  animation: float-gentle 4s ease-in-out infinite;
+}
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-violet), var(--color-magenta), var(--color-orange));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.glass-dark {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.gradient-border {
+  background: linear-gradient(135deg, var(--color-violet), var(--color-magenta), var(--color-orange));
+  padding: 2px;
+  border-radius: 1rem;
+}
+.gradient-border-inner {
+  background: var(--color-base);
+  border-radius: calc(1rem - 2px);
+}
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-base);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--color-violet), var(--color-magenta));
+  border-radius: 4px;
+}
