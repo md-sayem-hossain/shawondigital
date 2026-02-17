@@ -121,7 +121,7 @@ export function About() {
 
             <div className="space-y-5">
               <p className="text-lg text-text-muted leading-relaxed">
-                I'm Alex Rivera, a digital marketing strategist who's spent the
+                I'm Sajjad Hossen, a digital marketing strategist who's spent the
                 last 8+ years obsessing over what makes people click, share, and
                 buy. I've had the privilege of working with Fortune 500 brands
                 and bootstrapped startups alike.

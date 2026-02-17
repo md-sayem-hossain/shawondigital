@@ -235,7 +235,7 @@ export function Hero() {
                   </div>
                   <div>
                     <h2 className="text-2xl font-extrabold text-text-primary">
-                      Alex Rivera
+                      Sajjad Hossen
                     </h2>
                     <p className="text-text-muted font-medium">
                       Digital Marketing Strategist

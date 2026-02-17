@@ -13,7 +13,7 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
 {
   quote:
-  "Alex completely transformed our social media presence. We went from 5K to 200K followers in 6 months, and more importantly, our sales tripled. Best investment we've ever made.",
+  "Sajjad completely transformed our social media presence. We went from 5K to 200K followers in 6 months, and more importantly, our sales tripled. Best investment we've ever made.",
   name: 'Sarah Chen',
   role: 'CMO',
   company: 'FreshBite Foods',
@@ -23,7 +23,7 @@ const testimonials: Testimonial[] = [
 },
 {
   quote:
-  'The SEO strategy Alex built for us was a game-changer. We now rank #1 for 40+ high-intent keywords and our organic traffic is up 380%. Truly exceptional work.',
+  'The SEO strategy Sajjad built for us was a game-changer. We now rank #1 for 40+ high-intent keywords and our organic traffic is up 380%. Truly exceptional work.',
   name: 'Marcus Johnson',
   role: 'Founder & CEO',
   company: 'TechStart SaaS',
@@ -33,7 +33,7 @@ const testimonials: Testimonial[] = [
 },
 {
   quote:
-  'Working with Alex on our paid ads was incredible. Our ROAS went from 2x to 7.5x in just three months. The level of detail and optimization is unmatched.',
+  'Working with Sajjad on our paid ads was incredible. Our ROAS went from 2x to 7.5x in just three months. The level of detail and optimization is unmatched.',
   name: 'Elena Rodriguez',
   role: 'VP of Marketing',
   company: 'LuxeWear Fashion',
@@ -43,7 +43,7 @@ const testimonials: Testimonial[] = [
 },
 {
   quote:
-  "Alex doesn't just run campaigns — they build growth engines. Our brand awareness increased 400% and we've become the go-to name in our niche. Highly recommend.",
+  "Sajjad doesn't just run campaigns — they build growth engines. Our brand awareness increased 400% and we've become the go-to name in our niche. Highly recommend.",
   name: 'David Park',
   role: 'Co-Founder',
   company: 'GreenLeaf Wellness',

@@ -18,7 +18,7 @@ const posts: BlogPost[] = [
   "Organic reach is declining across every platform. Here's my framework for staying visible without blowing your ad budget.",
   category: 'Social Media',
   readTime: '7 min read',
-  author: 'Alex Rivera',
+  author: 'Sajjad Hossen',
   authorEmoji: '🚀',
   gradient: 'from-violet-brand to-purple-500',
   emoji: '📉'
@@ -29,7 +29,7 @@ const posts: BlogPost[] = [
   'A step-by-step breakdown of the exact funnel, creative strategy, and optimization playbook that drove 7-figure monthly revenue.',
   category: 'Paid Ads',
   readTime: '12 min read',
-  author: 'Alex Rivera',
+  author: 'Sajjad Hossen',
   authorEmoji: '🚀',
   gradient: 'from-magenta-brand to-pink-400',
   emoji: '💰'
@@ -40,7 +40,7 @@ const posts: BlogPost[] = [
   "Google's AI Overviews changed the game. Here's how to adapt your SEO strategy for the new search landscape.",
   category: 'SEO',
   readTime: '9 min read',
-  author: 'Alex Rivera',
+  author: 'Sajjad Hossen',
   authorEmoji: '🚀',
   gradient: 'from-emerald-500 to-teal-400',
   emoji: '🤖'
@@ -51,7 +51,7 @@ const posts: BlogPost[] = [
   "Most welcome sequences are boring. Here's the 5-email framework I use to turn subscribers into customers at 3x the industry average.",
   category: 'Email',
   readTime: '6 min read',
-  author: 'Alex Rivera',
+  author: 'Sajjad Hossen',
   authorEmoji: '🚀',
   gradient: 'from-orange-brand to-amber-400',
   emoji: '✉️'
@@ -62,7 +62,7 @@ const posts: BlogPost[] = [
   "If your brand sounds like everyone else, you're invisible. Here's how to develop a voice that actually resonates and converts.",
   category: 'Branding',
   readTime: '5 min read',
-  author: 'Alex Rivera',
+  author: 'Sajjad Hossen',
   authorEmoji: '🚀',
   gradient: 'from-rose-500 to-orange-400',
   emoji: '🎤'
@@ -73,7 +73,7 @@ const posts: BlogPost[] = [
   "Stop drowning in data. I'll show you the 7 metrics that actually matter and how to build a dashboard that drives decisions.",
   category: 'Analytics',
   readTime: '8 min read',
-  author: 'Alex Rivera',
+  author: 'Sajjad Hossen',
   authorEmoji: '🚀',
   gradient: 'from-blue-500 to-cyan-400',
   emoji: '📊'

@@ -286,7 +286,7 @@ export function Contact() {
                   <div>
                     <div className="text-sm text-text-muted">Email</div>
                     <div className="font-semibold text-text-primary">
-                      hello@alexrivera.com
+                      hello@sajjadhossen.com
                     </div>
                   </div>
                 </div>
@@ -391,11 +391,11 @@ export function Contact() {
                 <ZapIcon className="w-4 h-4 text-white" />
               </div>
               <span className="text-lg font-extrabold text-text-primary">
-                Alex<span className="gradient-text">Rivera</span>
+                Sajjad<span className="gradient-text">Hossen</span>
               </span>
             </div>
             <p className="text-sm text-text-muted flex items-center gap-1">
-              © 2026 Alex Rivera. Made with{' '}
+              © 2026 Sajjad Hossen. Made with{' '}
               <HeartIcon className="w-3.5 h-3.5 text-magenta-brand fill-magenta-brand" />{' '}
               and lots of coffee.
             </p>

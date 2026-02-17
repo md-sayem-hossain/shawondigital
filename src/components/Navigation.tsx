@@ -99,7 +99,7 @@ export function Navigation() {
               <ZapIcon className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-extrabold text-text-primary tracking-tight">
-              Alex<span className="gradient-text">Rivera</span>
+              Sajjad<span className="gradient-text">Hossen</span>
             </span>
           </motion.a>
 
